@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/colorMovieTitle">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/movie6_title"
+                    android:textColor="@color/colorTextTitle"
+                    android:textSize="@dimen/movie_title_text_size"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="140dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="@dimen/activity_pattern_margin"
+                    android:layout_marginBottom="@dimen/activity_pattern_margin"
+                    android:id="@+id/ibtnPoster"
+                    android:src="@color/transparent"
+                    android:background="@drawable/btn_movie06"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/movie6_year"
+                    android:id="@+id/txtYear"
+                    android:layout_alignTop="@+id/ibtnPoster"
+                    android:layout_toEndOf="@+id/ibtnPoster"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/movie6_length"
+                    android:id="@+id/txtDuration"
+                    android:layout_below="@+id/txtYear"
+                    android:layout_alignStart="@+id/txtYear"
+                    android:layout_marginTop="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/movie6_qualification"
+                    android:id="@+id/txtNote"
+                    android:layout_below="@+id/txtDuration"
+                    android:layout_alignStart="@+id/txtDuration"
+                    android:layout_marginTop="20dp" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ibtnFavorite"
+                    android:src="@drawable/btn_star_big_off_disable"
+                    android:background="@color/transparent"
+                    android:layout_below="@+id/txtNote"
+                    android:layout_alignStart="@+id/txtNote"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/movie_favorite_false"
+                    android:id="@+id/txtFavorite"
+                    android:layout_alignTop="@+id/ibtnFavorite"
+                    android:layout_toEndOf="@+id/ibtnFavorite"
+                    android:layout_marginTop="9dp"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/txt_synopsis"
+                android:layout_marginTop="@dimen/activity_pattern_margin"
+                android:layout_marginLeft="@dimen/activity_pattern_margin"
+                android:layout_marginBottom="@dimen/activity_pattern_margin"/>
+
+            <WebView
+                android:id="@+id/wbvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_pattern_margin"
+                android:layout_marginRight="@dimen/activity_pattern_margin"
+                android:layout_marginBottom="@dimen/activity_pattern_margin"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_pattern_margin"
+                android:layout_marginTop="@dimen/activity_pattern_margin"
+                android:layout_marginBottom="@dimen/activity_pattern_margin"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/txt_trailer" />
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_pattern_margin"
+                android:layout_marginRight="@dimen/activity_pattern_margin"
+                android:layout_marginBottom="@dimen/activity_pattern_margin"
+                android:id="@+id/player1"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

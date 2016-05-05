@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#303030</color>
+    <color name="colorPrimaryDark">#212121</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorMovieTitle">#424242</color>
+    <color name="colorTextTitle">#ECEFF1</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="text">#FF5000</color>
+    <color name="red">#F84545</color>
+    <color name="green">#30E35A</color>
+    <color name="blue">#309BE3</color>
+    <color name="gray_1">#E2E2E2</color>
+    <color name="gray_2">#F1F1F1</color>
+    <color name="gray_3">#D2D2D2</color>
+    <color name="transparent">#00000000</color>
 </resources>

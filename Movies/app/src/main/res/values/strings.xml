@@ -1,3 +1,41 @@
 <resources>
-    <string name="app_name">Movies</string>
+    <string name="app_name">Top Filmes</string>
+    <string name="movie_detail">Detalhes do Filme</string>
+    <string name="movie_poster">Poster do Filme</string>
+    <string name="movie_favorite_false">Marcar favorito</string>
+    <string name="movie_favorite_true">Desmarcar favorito</string>
+    <string name="movie_play_trailer">Assista ao trailer</string>
+    <string name="txt_synopsis">Sinopse e detalhes:</string>
+    <string name="txt_trailer">Trailer:</string>
+
+    <string name="movie1_title">Batman vs Superman: A Origem da Justiça</string>
+    <string name="movie1_year">2016</string>
+    <string name="movie1_length">2h 33m</string>
+    <string name="movie1_qualification">3,6/5</string>
+
+    <string name="movie2_title">Capitao America: Guerra Civil</string>
+    <string name="movie2_year">2016</string>
+    <string name="movie2_length">2h 27m</string>
+    <string name="movie2_qualification">4.8/5</string>
+    <string name="movie2_description">nonono</string>
+
+    <string name="movie3_title">X-man: Apocalipse</string>
+    <string name="movie3_year">2016</string>
+    <string name="movie3_length">2h 27m</string>
+    <string name="movie3_qualification">4.5/5</string>
+
+    <string name="movie4_title">Mogli: O Menino Lobo</string>
+    <string name="movie4_year">2016</string>
+    <string name="movie4_length">1h 46m</string>
+    <string name="movie4_qualification">3.5/5</string>
+
+    <string name="movie5_title">O Caçador e a Rainha do Gelo</string>
+    <string name="movie5_year">2016</string>
+    <string name="movie5_length">1h 54m</string>
+    <string name="movie5_qualification">2.5/5</string>
+
+    <string name="movie6_title">No Mundo da Lua</string>
+    <string name="movie6_year">2015</string>
+    <string name="movie6_length">1h 35m</string>
+    <string name="movie6_qualification">3.0/5</string>
 </resources>
