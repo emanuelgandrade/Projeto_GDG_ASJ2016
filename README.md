@@ -2,9 +2,9 @@
 
 Sistema operacional utilizado no projeto: Ubuntu 16.04 LTS
 
-Execultar projeto preferêncialmente no Android Studio 2.1 ou superior
+Execultar projeto preferêncialmente no Android Studio 2.0 ou superior
 
-Foi utilizado para implementaço do player API do YouTube, mais informações em: 
+Foi utilizado implementaço do player API do YouTube, mais informações em: 
   https://developers.google.com/youtube/
 
 
